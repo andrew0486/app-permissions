@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_07">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/ehcache-core-2.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-c3p0-4.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-commons-annotations-4.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-core-4.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-ehcache-4.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-entitymanager-4.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-jpamodelgen-4.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/hibernate-tools-4.3.1.CR1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/jtidy-r8-20060801.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/mchange-commons-java-0.2.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Programas/Eclipse Mars/eclipse/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ahuertas/Desktop/Librerias Hibernate/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
