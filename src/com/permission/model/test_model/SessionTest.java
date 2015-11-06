@@ -1,4 +1,4 @@
-package com.permission.test_model;
+package com.permission.model.test_model;
 
 import java.util.Iterator;
 import java.util.List;
