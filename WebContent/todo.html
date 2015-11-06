@@ -16,6 +16,18 @@
 		};
 		var todoApp = angular.module("todoApp", []);
 		
+		todoApp.filter("checkedItems", function () {
+			return function (items, showComplete) {
+				var resultArr = [];
+				angular.forEach(items, function (item) {
+					if (item.done == false || showComplete == true) {
+						resultArr.push(item);
+					}
+				});
+				return resultArr;
+			}
+		});
+		
 		todoApp.controller("ToDoCtrl", function ($scope) {
 			$scope.todo = model;
 			
@@ -65,12 +77,17 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr data-ng-repeat="item in todo.items | filter:{done: false} | orderBy:'action'">
+				<tr data-ng-repeat="item in todo.items | checkedItems:showComplete | orderBy:'action'">
 					<td>{{item.action}}</td>
 					<td><input type="checkbox" data-ng-model="item.done" /></td>
 				</tr>
 			</tbody>
 		</table>
+		<div class="checkbox-inline">
+			<label>
+				<input type="checkbox" data-ng-model="showComplete"> Show Complete
+			</label>
+		</div>
 	</div>
 </body>
 </html >
